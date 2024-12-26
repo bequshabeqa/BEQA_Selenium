@@ -16,6 +16,5 @@ public class HeroSteps extends HeroElement {
     }
     public void checks() {
         switchTo().window("Secure Area");
-
     }
 }

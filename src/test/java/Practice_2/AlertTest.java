@@ -16,6 +16,10 @@ public class AlertTest extends SetUp {
 
         open("https://the-internet.herokuapp.com/javascript_alerts");
 
+        alertSteps.buttonClick.click();
+        alertSteps.Button.click();
+        alertSteps.checks();
 
+        alertSteps.checkAlertText("You clicked: Ok");
     }
 }
