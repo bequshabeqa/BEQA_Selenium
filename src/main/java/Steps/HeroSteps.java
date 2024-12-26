@@ -1,7 +1,6 @@
 package Steps;
 
 import Elements.HeroElement;
-import com.codeborne.selenide.Condition;
 
 import java.io.FileNotFoundException;
 
