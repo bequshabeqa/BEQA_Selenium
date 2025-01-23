@@ -1,8 +1,10 @@
+package ClassWork_3;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Chrome {
+public class Class_3 {
     @Test
     public static void main(String[] args) {
 
@@ -12,7 +14,7 @@ public class Chrome {
 
         driver.get("https://www.google.com");
 
-        System.out.println("Page title is: " + driver.getTitle());
+
 
         driver.close();
     }
